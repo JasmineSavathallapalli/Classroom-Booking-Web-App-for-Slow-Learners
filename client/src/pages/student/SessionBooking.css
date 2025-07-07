@@ -1,0 +1,108 @@
+.booking-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+    padding: 30px;
+  }
+  
+  .booking-card {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-indicator {
+    font-size: 14px;
+    color: #4e73df;
+    margin-bottom: 10px;
+  }
+  
+  .booking-card h2 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .session-card {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .session-card:hover {
+    border-color: #4e73df;
+    background: #eef3ff;
+  }
+  
+  .session-card.selected {
+    border-color: #4e73df;
+    background-color: #e7ecff;
+  }
+  
+  .teacher-name {
+    font-weight: 600;
+    color: #1e3a8a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to right, #4e73df, #1e3a8a);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, #1e3a8a, #4e73df);
+  }
+  
+  .btn-secondary {
+    background: #e4e9f2;
+    color: #1e3a8a;
+  }
+  
+  .btn-secondary:hover {
+    background: #d5deee;
+  }
+  
+  .course-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  

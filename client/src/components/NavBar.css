@@ -1,0 +1,73 @@
+/* Navbar background to match the blue gradient of the page */
+.navbar {
+    background: linear-gradient(90deg, #4e73df, #1e3a8a); /* Gradient from blue to darker blue */
+    padding: 12px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Container for logo and links */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo style */
+  .navbar-logo {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  /* Links container */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styling for each navbar link */
+  .navbar-link {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #ffffff;  /* White text color */
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ff6347;  /* Tomato color on hover */
+    transform: translateY(-2px);  /* Small hover animation */
+  }
+  
+  /* Logout button styled like a link */
+  .logout-btn {
+    background: none;
+    border: none;
+    color: #fff; /* White text */
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    text-align: left;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .logout-btn:hover {
+    color: #ff6347; /* Tomato color on hover */
+    transform: translateY(-2px); /* Small hover animation */
+  }
+  
+  /* Navbar link active state */
+  .navbar-link:active,
+  .logout-btn:active {
+    color: #ff6347;
+    transform: translateY(1px); /* Slight click-down effect */
+  }
+  

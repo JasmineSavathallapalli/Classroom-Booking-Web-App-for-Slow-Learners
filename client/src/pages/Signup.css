@@ -1,0 +1,105 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-form {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.signup-form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2575fc;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+.submit-btn:active {
+  transform: scale(1);
+}
+
+.login-redirect {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-redirect a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Animation for fadeIn effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .signup-form {
+    padding: 20px;
+    width: 90%;
+  }
+}
