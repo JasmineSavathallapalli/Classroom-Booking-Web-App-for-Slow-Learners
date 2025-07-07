@@ -26,7 +26,7 @@ Built using the **MERN Stack**:
 
 This project was developed collaboratively by:
 
-- **JasmineSavathallapalli** 
+- [@JasmineSavathallapalli](https://github.com/JasmineSavathallapalli)
 - [@vyshnav-vinod](https://github.com/vyshnav-vinod)
 - [@17ayushh](https://github.com/17ayushh)
 - [@not3zra](https://github.com/not3zra)
